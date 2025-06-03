@@ -1,0 +1,133 @@
+@media(max-width:3000px) {
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        padding: 15px;
+        width: 100%;
+    }
+}
+
+.child {
+    display: grid;
+    /* place-items: center; */
+    /* padding: 20px; */
+    width: 100%;
+}
+
+.contenu {
+    width: 100%;
+}
+
+@media screen and (max-width: 850px) {
+    .parent {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contenu {
+        width: 100%;
+    }
+}
+
+@media(max-width: 500px) {
+    .parent {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contenu {
+        width: 100%;
+    }
+}
+
+body {
+    background-color: rgb(228, 205, 205);
+    list-style: none;
+}
+
+.material-icons {
+    font-size: 30px;
+    color: dodgerblue;
+    padding: 10px;
+}
+
+header {
+    position: relative;
+    width: 100%;
+}
+
+/* LIEN DE NAVIGATION  */
+.menu {
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    display: block;
+}
+
+.menu div {
+    padding: 20px;
+    border-radius: 15px;
+    float: left;
+}
+
+.contenu {
+    width: 100%;
+}
+
+.menu div:hover {
+    border-radius: 20px;
+    width: 25%;
+    padding: 20px;
+}
+
+/* ANIMATION DES LIENS */
+div .a1:hover {
+    background-color: saddlebrown;
+}
+
+div .a2:hover {
+    background-color: rgb(240, 78, 232);
+}
+
+div .a3:hover {
+    background-color: green;
+}
+
+div .a4:hover {
+    background-color: rgb(219, 25, 35);
+}
+
+div .a5:hover {
+    background-color: rgb(235, 125, 22);
+}
+
+div .a6:hover {
+    background-color: rgb(33, 202, 224);
+}
+
+div .a7:hover {
+    background-color: rgb(211, 238, 61);
+}
+
+div .a8:hover {
+    background-color: rgb(21, 63, 139);
+}
+
+div .a9:hover {
+    background-color: rgb(4, 73, 38);
+}
+
+div .a10:hover {
+    background-color: rgb(44, 6, 105);
+}
+
+div .a11:hover {
+    background-color: rgb(96, 10, 117);
+}

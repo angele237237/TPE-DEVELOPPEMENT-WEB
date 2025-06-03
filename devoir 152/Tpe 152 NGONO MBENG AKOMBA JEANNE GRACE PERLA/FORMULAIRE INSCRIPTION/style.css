@@ -1,0 +1,184 @@
+body {
+    background-color: #120849;
+    width: 100%;
+    font-family: 'Segoe UI', sans-serif;
+    list-style: none;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* LIEN DE NAVIGATION  */
+.menu {
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.menu div {
+    padding: 15px;
+    border-radius: 15px;
+    float: left;
+}
+
+.menu div:hover {
+    border-radius: 20px;
+    height: 0%;
+    width: 25%;
+    padding: 15px;
+}
+
+.menu :hover .sous-menu {
+    display: inline-block;
+}
+
+.sous-menu {
+    display: none;
+}
+
+/* ANIMATION DES LIENS */
+div .a1:hover {
+    background-color: saddlebrown;
+}
+
+div .a2:hover {
+    background-color: rgb(240, 78, 232);
+}
+
+div .a3:hover {
+    background-color: green;
+}
+
+div .a4:hover {
+    background-color: rgb(219, 25, 35);
+}
+
+div .a5:hover {
+    background-color: rgb(235, 125, 22);
+}
+
+div .a6:hover {
+    background-color: rgb(33, 202, 224);
+}
+
+div .a7:hover {
+    background-color: rgb(211, 238, 61);
+}
+
+div .a8:hover {
+    background-color: rgb(21, 63, 139);
+}
+
+div .a9:hover {
+    background-color: rgb(4, 73, 38);
+}
+
+div .a10:hover {
+    background-color: rgb(44, 6, 105);
+}
+
+div .a11:hover {
+    background-color: rgb(96, 10, 117);
+}
+
+form input {
+    border: solid 2px rgb(85, 217, 226);
+    width: 70%;
+}
+
+form input[type="submit"] {
+    background-color: rgb(85, 217, 226);
+    width: 70%;
+}
+
+form select {
+    background-color: #25109b;
+    border: solid 3px #25109b;
+}
+
+.forgot input[type="text"],
+input[type="email"] {
+    width: 70%;
+}
+
+.forgot .submit {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    margin-left: 30%;
+    width: 40%;
+}
+
+h1 {
+    margin-bottom: 50px;
+    margin-left: 20%;
+    font-size: 50px;
+    position: inherit;
+}
+
+.signup {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 5%;
+    background-color: #2b2069;
+    width: 80%;
+}
+
+
+label {
+    margin-left: 40px;
+}
+
+#male {
+    width: 10%;
+}
+
+#agree {
+    width: 5%;
+}
+
+.privacy {
+    margin: 0px;
+}
+
+.remember {
+    margin: 0px;
+}
+
+.remember input {
+    width: 15px;
+    margin-left: 10px;
+    margin-right: 2px;
+}
+
+input {
+    padding: 15px;
+    border-radius: 20px;
+    background-color: transparent;
+    width: 70%;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+p {
+    margin-left: 15%;
+}
+
+a {
+    color: rgb(24, 190, 168);
+    text-decoration: none;
+}

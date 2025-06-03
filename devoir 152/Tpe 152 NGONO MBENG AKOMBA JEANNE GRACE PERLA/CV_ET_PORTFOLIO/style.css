@@ -1,0 +1,542 @@
+@media (min-width: 801px) and (max-width: 4000px) {
+
+    /* corps du site */
+    body {
+        font-size: 25px;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        background-color: rgb(141, 141, 165);
+        list-style: none;
+    }
+
+    div {
+        width: 100%;
+    }
+
+    .contenu,
+    section {
+        width: 100%;
+    }
+
+    /* entete */
+
+    header {
+        position: fixed;
+        width: 100%;
+    }
+
+    /* LIEN DE NAVIGATION  */
+    .menu {
+        background-color: rgb(56, 56, 56);
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        padding: 10px;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        display: inline-block;
+    }
+
+    .menu div {
+        padding: 15px;
+        border-radius: 15px;
+        float: left;
+    }
+
+    .menu div:hover {
+        border-radius: 20px;
+        width: 80%;
+        padding: 20px;
+    }
+
+    .menu :hover .sous-menu {
+        display: block;
+        padding: 1px;
+    }
+
+    .sous-menu {
+        display: none;
+    }
+
+    /* ANIMATION DES LIENS */
+    div .a1:hover {
+        background-color: saddlebrown;
+    }
+
+    div .a2:hover {
+        background-color: rgb(240, 78, 232);
+    }
+
+    div .a3:hover {
+        background-color: green;
+    }
+
+    div .a4:hover {
+        background-color: rgb(219, 25, 35);
+    }
+
+    div .a5:hover {
+        background-color: rgb(235, 125, 22);
+    }
+
+    div .a6:hover {
+        background-color: rgb(33, 202, 224);
+    }
+
+    div .a7:hover {
+        background-color: rgb(211, 238, 61);
+    }
+
+    div .a8:hover {
+        background-color: rgb(21, 63, 139);
+    }
+
+    div .a9:hover {
+        background-color: rgb(4, 73, 38);
+    }
+
+    div .a10:hover {
+        background-color: rgb(44, 6, 105);
+    }
+
+    div .a11:hover {
+        background-color: rgb(96, 10, 117);
+    }
+
+    /* corps */
+    .corps {
+        padding: 100px;
+    }
+
+    .titre {
+        text-align: center;
+        margin: 15px;
+        color: rgb(236, 175, 31);
+    }
+
+    /* A PROPOS DE MOI */
+
+    /* presentation */
+    .presentation {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 85%;
+        border-radius: 15px;
+        background-color: rgb(138, 111, 91);
+        padding: 0px;
+        border-top: 30px solid saddlebrown;
+    }
+
+    .propos {
+        padding: 5%;
+        width: 60%;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .propos h2 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 40px;
+        color: blue;
+    }
+
+    .propos table td {
+        font-size: 20px;
+        padding: 15px 0;
+    }
+
+    /* IMAGES DU CV */
+    .image {
+        display: grid;
+        place-items: center;
+        width: 100%;
+    }
+
+    .image img {
+        border-radius: 20px;
+        border: 3px solid rgb(27, 27, 27);
+        width: 70%;
+        height: max-content;
+    }
+
+
+    /* DIPLOME ET ETUDES */
+
+    .diplome {
+        width: 85%;
+        border-radius: 15px;
+        background-color: rgb(203, 238, 203);
+        padding: 15px;
+        margin: 15px;
+        border-top: 30px solid green;
+    }
+
+    .diplome blockquote {
+        border-left: 5px solid silver;
+        height: 30%;
+        display: grid;
+        align-items: center;
+        padding: 10px;
+        margin: 15px;
+        width: 90%;
+    }
+
+    /* competences */
+    .competences {
+        width: 85%;
+        border-radius: 20px;
+        background-color: rgb(233, 179, 129);
+        padding: 15px;
+        border-top: 30px solid rgb(235, 125, 22);
+    }
+
+    .competences table {
+        padding: 15px;
+    }
+
+    /* loisirs */
+    .loisir {
+        width: 85%;
+        border-radius: 15px;
+        background-color: rgb(236, 184, 234);
+        padding: 15px;
+        border-top: 30px solid rgb(240, 78, 232);
+    }
+
+    .loisir p {
+        margin: 70px;
+        font-size: 23px;
+    }
+
+    /* CONTACTER MOI */
+    .contact {
+        width: 85%;
+        border-radius: 15px;
+        background-color: rgb(226, 235, 176);
+        padding: 15px;
+        border-top: 30px solid rgb(211, 238, 61)
+    }
+
+    .contact table {
+        padding: 15px;
+    }
+
+    .contact table td {
+        font-size: 20px;
+    }
+
+    .contact td {
+        padding: 20px;
+    }
+
+    .contact tr td a {
+        text-decoration: none;
+    }
+
+    /* mon portfolio */
+    .port {
+        width: 85%;
+        border-radius: 15px;
+        background-color: rgb(198, 240, 240);
+        padding: 15px;
+        border-top: 30px solid rgb(33, 202, 224);
+    }
+
+    .port table td {
+        width: 70%;
+    }
+
+    .port table img {
+        width: 60%;
+    }
+
+    .image2 {
+        display: grid;
+    }
+
+    /* experience professionnelle */
+    .Xp {
+        width: 85%;
+        border-radius: 15px;
+        background-color: rgb(241, 145, 145);
+        padding: 15px;
+        border-top: 30px solid rgb(219, 25, 35);
+    }
+
+    .Xp li {
+        margin: 5%;
+    }
+}
+
+@media screen and (min-width: 50px) and (max-width: 800px) {
+
+
+    /* corps du site */
+    body {
+        font-size: 15px;
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(141, 141, 165);
+        list-style: none;
+    }
+
+    div,
+    section {
+        width: 100%;
+    }
+
+    /* entete */
+
+    header {
+        position: fixed;
+        width: 100%;
+    }
+
+    /* LIEN DE NAVIGATION  */
+    .menu {
+        background-color: rgb(56, 56, 56);
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        padding: 7px;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: white;
+        font-size: 60%;
+        display: inline-block;
+    }
+
+    .menu div {
+        padding: 9px;
+        border-radius: 15px;
+    }
+
+    .menu div:hover {
+        border-radius: 15px;
+        height: 40%;
+        width: 60%;
+        padding: 10px;
+    }
+
+    .menu :hover .sous-menu {
+        display: inline-block;
+    }
+
+    .sous-menu {
+        display: none;
+    }
+
+    /* ANIMATION DES LIENS */
+    div .a1:hover {
+        background-color: saddlebrown;
+    }
+
+    div .a2:hover {
+        background-color: rgb(240, 78, 232);
+    }
+
+    div .a3:hover {
+        background-color: green;
+    }
+
+    div .a4:hover {
+        background-color: rgb(219, 25, 35);
+    }
+
+    div .a5:hover {
+        background-color: rgb(235, 125, 22);
+    }
+
+    div .a6:hover {
+        background-color: rgb(33, 202, 224);
+    }
+
+    div .a7:hover {
+        background-color: rgb(211, 238, 61);
+    }
+
+    div .a8:hover {
+        background-color: rgb(21, 63, 139);
+    }
+
+    div .a9:hover {
+        background-color: rgb(4, 73, 38);
+    }
+
+    div .a10:hover {
+        background-color: rgb(44, 6, 105);
+    }
+
+    div .a11:hover {
+        background-color: rgb(96, 10, 117);
+    }
+
+    /* corps */
+    .corps {
+        padding: 40px;
+    }
+
+    .titre {
+        text-align: start;
+        margin-top: 20px;
+        padding-top: 15px;
+        color: rgb(236, 175, 31);
+    }
+
+    /* A PROPOS DE MOI */
+
+    /* presentation */
+    .presentation {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 70%;
+        border-radius: 15px;
+        background-color: rgb(138, 111, 91);
+        border-top: 20px solid saddlebrown;
+    }
+
+    .propos {
+        padding: 10px;
+        width: 60%;
+        text-align: end;
+        font-size: 15px;
+    }
+
+    .propos h2 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        color: blue;
+    }
+
+    .propos table td {
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    /* IMAGES DU CV */
+    .image {
+        display: grid;
+        place-items: top;
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 25px;
+    }
+
+    .image img {
+        border-radius: 20px;
+        border: 3px solid rgb(27, 27, 27);
+        width: 100%;
+    }
+
+
+    /* DIPLOME ET ETUDES */
+
+    .diplome {
+        width: 70%;
+        border-radius: 15px;
+        background-color: rgb(203, 238, 203);
+        padding: 15px;
+        margin: 15px;
+        border-top: 20px solid green;
+    }
+
+    .diplome blockquote {
+        border-left: 5px solid silver;
+        align-items: center;
+        padding: 8px;
+        margin: 10px;
+        width: 90%;
+    }
+
+    /* competences */
+    .competences {
+        width: 70%;
+        border-radius: 20px;
+        background-color: rgb(233, 179, 129);
+        padding: 15px;
+        border-top: 20px solid rgb(235, 125, 22);
+    }
+
+    .competences table {
+        padding: 10px;
+    }
+
+    /* loisirs */
+    .loisir {
+        width: 70%;
+        border-radius: 15px;
+        background-color: rgb(236, 184, 234);
+        padding: 10px;
+        border-top: 20px solid rgb(240, 78, 232);
+    }
+
+    .loisir p {
+        margin: 70px;
+        font-size: 20px;
+    }
+
+    /* CONTACTER MOI */
+    .contact {
+        width: 70%;
+        border-radius: 15px;
+        background-color: rgb(226, 235, 176);
+        padding: 15px;
+        border-top: 20px solid rgb(211, 238, 61)
+    }
+
+    .contact table {
+        padding: 10px;
+        margin: 15px;
+    }
+
+    .contact td {
+        padding: 10px;
+    }
+
+    .contact tr td a {
+        text-decoration: none;
+        width: 50%;
+    }
+
+    /* mon portfolio */
+    .port {
+        width: 70%;
+        border-radius: 15px;
+        background-color: rgb(198, 240, 240);
+        padding: 15px;
+        border-top: 30px solid rgb(33, 202, 224);
+    }
+
+    .port table td {
+        width: 70%;
+    }
+
+    .port table img {
+        width: 60%;
+    }
+
+    .image2 {
+        display: grid;
+    }
+
+    /* experience professionnelle */
+    .Xp {
+        width: 70%;
+        border-radius: 15px;
+        background-color: rgb(241, 145, 145);
+        padding: 15px;
+        border-top: 20px solid rgb(219, 25, 35);
+    }
+
+    .Xp li {
+        margin: 15px;
+    }
+
+}
